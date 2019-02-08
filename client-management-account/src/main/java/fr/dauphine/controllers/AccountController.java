@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 @RestController
 @RequestMapping("accounts")

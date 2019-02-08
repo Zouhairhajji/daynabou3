@@ -22,7 +22,7 @@ import lombok.Setter;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 @Getter
 @Setter

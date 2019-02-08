@@ -16,7 +16,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 @Builder
 @Data

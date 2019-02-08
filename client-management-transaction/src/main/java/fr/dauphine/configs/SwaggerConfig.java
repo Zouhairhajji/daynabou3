@@ -15,7 +15,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 @Configuration
 @EnableSwagger2
@@ -31,9 +31,9 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("Users Management API")
                 .description("Users management")
-                .termsOfServiceUrl("https://github.com/Zouhairhajji/test-ing3")
-                .contact("hajji.zouhair@outlook.fr").license("Zouhair License")
-                .licenseUrl("hajji.zouhair@outlook.fr").version("1.0").build();
+                .termsOfServiceUrl("https://github.com/jihane and zouhair/test-ing3")
+                .contact("jihane.and.zouhair@outlook.fr").license("Zouhair License")
+                .licenseUrl("jihane.and.zouhair@outlook.fr").version("1.0").build();
     }
 
 }

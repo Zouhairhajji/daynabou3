@@ -14,7 +14,7 @@ import org.springframework.data.jpa.repository.Query;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 public interface TransactionRepository extends JpaRepository<TransactionEntity, Long> {
 

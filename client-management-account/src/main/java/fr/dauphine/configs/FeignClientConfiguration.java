@@ -12,7 +12,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 @Configuration
 public class FeignClientConfiguration {

@@ -15,7 +15,7 @@ import java.util.Optional;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 public interface ITransactionService {
 

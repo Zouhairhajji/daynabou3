@@ -24,7 +24,7 @@ import org.springframework.stereotype.Service;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 @Service("transactionService")
 public class TransactionService implements ITransactionService {

@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 @Builder
 @Data

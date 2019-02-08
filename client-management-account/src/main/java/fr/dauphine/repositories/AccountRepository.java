@@ -12,7 +12,7 @@ import org.springframework.data.jpa.repository.Query;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 public interface AccountRepository extends JpaRepository<AccountEntity, String>{
     

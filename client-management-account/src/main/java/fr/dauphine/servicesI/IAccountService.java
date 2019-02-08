@@ -14,7 +14,7 @@ import org.iban4j.CountryCode;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 public interface IAccountService {
 

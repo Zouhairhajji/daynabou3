@@ -7,7 +7,7 @@ package fr.dauphine.exceptions;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 public class AccountException extends Exception{
 

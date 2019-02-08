@@ -31,7 +31,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 @Service("accountService")
 public class AccountService implements IAccountService {

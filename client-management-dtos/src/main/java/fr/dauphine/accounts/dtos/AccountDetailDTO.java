@@ -15,7 +15,7 @@ import lombok.ToString;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 @Builder
 @Getter

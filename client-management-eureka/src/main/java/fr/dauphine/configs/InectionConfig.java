@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 @Configuration
 public class InectionConfig {

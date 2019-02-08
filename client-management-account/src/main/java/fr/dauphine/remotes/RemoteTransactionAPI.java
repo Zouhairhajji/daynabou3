@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 @FeignClient(name = "SERVICE-TRANSACTION", configuration = FeignClientConfiguration.class)
 public interface RemoteTransactionAPI {

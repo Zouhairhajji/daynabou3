@@ -7,7 +7,7 @@ package fr.dauphine.accounts.enums;
 
 /**
  *
- * @author zouhairhajji
+ * @author jihane and zouhair
  */
 public enum TransactionType {
 
