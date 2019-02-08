@@ -13,11 +13,18 @@ to lunch the server, please
 make sure that the web servers are running by rendring the web page http://localhost:8761/
 
 
+
+
 to teste the project, please access to the web pages  :
-	-	account micro service : [http://localhost:9500/swagger-ui.html]
-	-	transaction micro service : [http://localhost:9002/swagger-ui.html]
+
+    - account micro service : [http://localhost:9500/swagger-ui.html]
+    - transaction micro service : [http://localhost:9002/swagger-ui.html]
+
+
+
 
 
 An other manner to check whether the servers are running by running the command line  : 
+
 	-	docker service ls 
 	- 	docker container ls 
