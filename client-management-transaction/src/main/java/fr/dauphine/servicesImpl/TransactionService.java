@@ -17,6 +17,7 @@ import java.lang.reflect.Type;
 import java.sql.Timestamp;
 import java.util.List;
 import java.util.Optional;
+import lombok.Setter;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +28,7 @@ import org.springframework.stereotype.Service;
  * @author jihane and zouhair
  */
 @Service("transactionService")
+@Setter
 public class TransactionService implements ITransactionService {
 
     @Autowired
@@ -95,6 +97,7 @@ public class TransactionService implements ITransactionService {
     @Override
     public Optional<OperationDTO> findTransactionById(Long idTransaction) {
         Optional<TransactionEntity> optTrans = this.transactionRepository.findById(idTransaction);
+        System.out.println(this.mapper.map(optTrans.get(), OperationDTO.class) + "<<");;
         return !optTrans.isPresent() ? Optional.empty() : Optional.of(this.mapper.map(optTrans.get(), OperationDTO.class));
     }
 

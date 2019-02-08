@@ -12,6 +12,7 @@ import fr.dauphine.servicesI.ITransactionService;
 import java.sql.Timestamp;
 import java.util.List;
 import java.util.Optional;
+import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,6 +27,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author jihane and zouhair
  */
+@Setter
 @RestController
 @RequestMapping("transactions")
 public class TransactionController {
@@ -100,7 +102,7 @@ public class TransactionController {
             OperationDTO operation = this.transactionService.depositMoney(iban, amount);
             return new ResponseEntity<>(operation, HttpStatus.OK);
         } catch (Exception ex) {
-            return new ResponseEntity<>(ex.getMessage(), HttpStatus.GATEWAY_TIMEOUT);
+            return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
     
