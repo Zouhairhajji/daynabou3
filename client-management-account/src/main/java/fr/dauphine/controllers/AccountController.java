@@ -11,6 +11,7 @@ import fr.dauphine.accounts.enums.AccountType;
 import fr.dauphine.exceptions.AccountException;
 import fr.dauphine.servicesI.IAccountService;
 import java.util.List;
+import lombok.Setter;
 import org.iban4j.CountryCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -29,6 +30,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("accounts")
+@Setter
 public class AccountController {
 
     @Autowired
