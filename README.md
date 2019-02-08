@@ -1,6 +1,6 @@
 this project allow user to store user informations in our secure website
 
-In order to see the detailled API REST, pleace check the swagger ui 2 using <b>http://localhost:8080/swagger-ui.html</b>
+In order to see the detailled API REST, pleace check the swagger ui 2 using <b>http://localhost:9500|9002/swagger-ui.html</b>
 
 to lunch the server, please 
 
