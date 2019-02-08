@@ -6,13 +6,18 @@ to lunch the server, please
 
     1/- cd ${project}
     2/- mvn clean install
-    3/- cd client-management-services/
-    4/- mvn clean install spring-boot:run
+    3/- docker service rm $(docker service ls | sed 's/  */ /g' | egrep -v '^ID' | cut -d ' ' -f1 | tr '\n' ' ' )
+    4/- docker stack deploy --compose-file docker-compose.yml dauphine_cluster
 
 
-to teste the project, please perform the command :
-        1/- curl -X localhost:8080/users/list
-    the output has to be 
-        [{"firstName":"none","lastName":"none"}]
-    you can verify using swagger ui via 
-        <b>http://localhost:8080/swagger-ui.html</b>
+make sure that the web servers are running by rendring the web page http://localhost:8761/
+
+
+to teste the project, please access to the web pages  :
+	-	account micro service : [http://localhost:9500/swagger-ui.html]
+	-	transaction micro service : [http://localhost:9002/swagger-ui.html]
+
+
+An other manner to check whether the servers are running by running the command line  : 
+	-	docker service ls 
+	- 	docker container ls 
